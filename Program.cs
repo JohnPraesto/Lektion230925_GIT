@@ -5,6 +5,8 @@
         static void Main(string[] args)
         {
 
+
+
             Console.WriteLine("Ange nr 1: ");
             int nr1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Ange nr 2: ");
@@ -22,10 +24,42 @@
 
             Add(int secondNumber, int firstNumber);
 
+
         }
 
 
 
+
+
+
+
+
+
+
+
+
+        public int Add(int a, int b)
+        {
+            int c = a + b;
+            return c;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
        
+
     }
+    
 }
