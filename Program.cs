@@ -4,9 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
 
-            Console.WriteLine("Hej");
+        }
+        public int Add(int a, int b)
+        {
+            int c = a + b;
+            return c;
         }
     }
 }
